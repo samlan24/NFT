@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    max-width: 360px;
+    margin: 0 auto;
+
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content h2{
+    color: hsl(0, 0%, 100%);
+}
+
+.card-content p{
+    color: hsl(215, 51%, 70%);
+}
+
+.card-digits{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ethrm{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.ethrm img{
+    width: 10%;
+    padding-right: 5px;
+}
+
+.days{
+   flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+}
+
+.days img{
+    width: 10%;
+}
+
+.days span{
+color:hsl(215, 51%, 70%);
+padding-left: 5px;
+}
+
+hr{
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+    height: 1px;
+}
+
+.card-creator{
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-creator img{
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+
+.card-creator p{
+    padding-left: 10px;
+}
